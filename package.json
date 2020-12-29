@@ -6,13 +6,16 @@
     "build": "vite build"
   },
   "dependencies": {
-    "primeflex": "^2.0.0",
-    "primeicons": "^4.0.0",
-    "primevue": "^3.0.0",
     "vue": "^3.0.2"
   },
   "devDependencies": {
+    "@tailwindcss/postcss7-compat": "^2.0.2",
     "@vue/compiler-sfc": "^3.0.2",
+    "autoprefixer": "^9",
+    "postcss": "^7",
+    "sass": "^1.30.0",
+    "sass-loader": "^10.1.0",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
     "vite": "^1.0.0-rc.8"
   }
 }
